@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A11A4EA1EF37EA10036C544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11A4E91EF37EA10036C544 /* AppDelegate.swift */; };
+		5A11A4EC1EF37EA10036C544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A11A4EB1EF37EA10036C544 /* ViewController.swift */; };
+		5A11A4EF1EF37EA20036C544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A11A4ED1EF37EA20036C544 /* Main.storyboard */; };
+		5A11A4F11EF37EA20036C544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A11A4F01EF37EA20036C544 /* Assets.xcassets */; };
+		5A11A4F41EF37EA20036C544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A11A4F21EF37EA20036C544 /* LaunchScreen.storyboard */; };
+		B06F95E0C98B0773507FB4D6 /* Pods_iossample_devicecheck_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921A1BB07FB579F9753E49BE /* Pods_iossample_devicecheck_client.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14ADE5500C17CBB265B6AD49 /* Pods-iossample-devicecheck-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iossample-devicecheck-client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iossample-devicecheck-client/Pods-iossample-devicecheck-client.debug.xcconfig"; sourceTree = "<group>"; };
+		2AA2D3872379CFA62B8B1CA8 /* Pods-iossample-devicecheck-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iossample-devicecheck-client.release.xcconfig"; path = "Pods/Target Support Files/Pods-iossample-devicecheck-client/Pods-iossample-devicecheck-client.release.xcconfig"; sourceTree = "<group>"; };
+		5A11A4E61EF37EA10036C544 /* iossample-devicecheck-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iossample-devicecheck-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A11A4E91EF37EA10036C544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A11A4EB1EF37EA10036C544 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A11A4EE1EF37EA20036C544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A11A4F01EF37EA20036C544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A11A4F31EF37EA20036C544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A11A4F51EF37EA20036C544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A11A4FB1EF37EF40036C544 /* iossample-devicecheck-client.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = "iossample-devicecheck-client.entitlements"; path = "iossample-devicecheck-client/iossample-devicecheck-client.entitlements"; sourceTree = "<group>"; };
+		921A1BB07FB579F9753E49BE /* Pods_iossample_devicecheck_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iossample_devicecheck_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A11A4E31EF37EA10036C544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06F95E0C98B0773507FB4D6 /* Pods_iossample_devicecheck_client.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A11A4DD1EF37EA10036C544 = {
+			isa = PBXGroup;
+			children = (
+				5A11A4FB1EF37EF40036C544 /* iossample-devicecheck-client.entitlements */,
+				5A11A4E81EF37EA10036C544 /* iossample-devicecheck-client */,
+				5A11A4E71EF37EA10036C544 /* Products */,
+				DDC5673E977DB32C72A5B91B /* Pods */,
+				92679F27413831DEF3506103 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A11A4E71EF37EA10036C544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A11A4E61EF37EA10036C544 /* iossample-devicecheck-client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A11A4E81EF37EA10036C544 /* iossample-devicecheck-client */ = {
+			isa = PBXGroup;
+			children = (
+				5A11A4E91EF37EA10036C544 /* AppDelegate.swift */,
+				5A11A4EB1EF37EA10036C544 /* ViewController.swift */,
+				5A11A4ED1EF37EA20036C544 /* Main.storyboard */,
+				5A11A4F01EF37EA20036C544 /* Assets.xcassets */,
+				5A11A4F21EF37EA20036C544 /* LaunchScreen.storyboard */,
+				5A11A4F51EF37EA20036C544 /* Info.plist */,
+			);
+			path = "iossample-devicecheck-client";
+			sourceTree = "<group>";
+		};
+		92679F27413831DEF3506103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921A1BB07FB579F9753E49BE /* Pods_iossample_devicecheck_client.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC5673E977DB32C72A5B91B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14ADE5500C17CBB265B6AD49 /* Pods-iossample-devicecheck-client.debug.xcconfig */,
+				2AA2D3872379CFA62B8B1CA8 /* Pods-iossample-devicecheck-client.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A11A4E51EF37EA10036C544 /* iossample-devicecheck-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A11A4F81EF37EA20036C544 /* Build configuration list for PBXNativeTarget "iossample-devicecheck-client" */;
+			buildPhases = (
+				1FD3BBC15A8AD4378119AA28 /* [CP] Check Pods Manifest.lock */,
+				5A11A4E21EF37EA10036C544 /* Sources */,
+				5A11A4E31EF37EA10036C544 /* Frameworks */,
+				5A11A4E41EF37EA10036C544 /* Resources */,
+				32698FFCA5BE80D02734604A /* [CP] Embed Pods Frameworks */,
+				AC0EDD4439653E3D7DBA749C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iossample-devicecheck-client";
+			productName = "iossample-devicecheck-client";
+			productReference = 5A11A4E61EF37EA10036C544 /* iossample-devicecheck-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A11A4DE1EF37EA10036C544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = owen;
+				TargetAttributes = {
+					5A11A4E51EF37EA10036C544 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5A11A4E11EF37EA10036C544 /* Build configuration list for PBXProject "iossample-devicecheck-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A11A4DD1EF37EA10036C544;
+			productRefGroup = 5A11A4E71EF37EA10036C544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A11A4E51EF37EA10036C544 /* iossample-devicecheck-client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A11A4E41EF37EA10036C544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A11A4F41EF37EA20036C544 /* LaunchScreen.storyboard in Resources */,
+				5A11A4F11EF37EA20036C544 /* Assets.xcassets in Resources */,
+				5A11A4EF1EF37EA20036C544 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD3BBC15A8AD4378119AA28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32698FFCA5BE80D02734604A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iossample-devicecheck-client/Pods-iossample-devicecheck-client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0EDD4439653E3D7DBA749C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iossample-devicecheck-client/Pods-iossample-devicecheck-client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A11A4E21EF37EA10036C544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A11A4EC1EF37EA10036C544 /* ViewController.swift in Sources */,
+				5A11A4EA1EF37EA10036C544 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A11A4ED1EF37EA20036C544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A11A4EE1EF37EA20036C544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A11A4F21EF37EA20036C544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A11A4F31EF37EA20036C544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A11A4F61EF37EA20036C544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A11A4F71EF37EA20036C544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A11A4F91EF37EA20036C544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14ADE5500C17CBB265B6AD49 /* Pods-iossample-devicecheck-client.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iossample-devicecheck-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.iossample-devicecheck-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5A11A4FA1EF37EA20036C544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA2D3872379CFA62B8B1CA8 /* Pods-iossample-devicecheck-client.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iossample-devicecheck-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.iossample-devicecheck-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A11A4E11EF37EA10036C544 /* Build configuration list for PBXProject "iossample-devicecheck-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A11A4F61EF37EA20036C544 /* Debug */,
+				5A11A4F71EF37EA20036C544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A11A4F81EF37EA20036C544 /* Build configuration list for PBXNativeTarget "iossample-devicecheck-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A11A4F91EF37EA20036C544 /* Debug */,
+				5A11A4FA1EF37EA20036C544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A11A4DE1EF37EA10036C544 /* Project object */;
+}
